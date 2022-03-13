@@ -1,10 +1,10 @@
 def wordle():
 
-  pWords = ["today", "codes", "lying", "works", "words", "split", "splice", "money", "watch", "latch", "young", "homes", "truce"]
+  pWords = ["today", "codes", "lying", "works", "words", "split", "likes", "money", "watch", "latch", "young", "homes", "truce", "truck", "soles" , "enter", "focus", "point", "yours", "fouls", "holes", "dying", "clown", "cloth", "towel", "colts", "scowl", "seize", "serve", "sharp", "shelf", "spine", "slice", "solid", "space", "stand", "stone", "eight", "earth", "eager", "ebony", "edict", "eight", "elect", "elite", "entry", "extra", "every"]
 
   #this for i loop decides what the word is using the list above
-  for i in range(1,14):
-    wordInput = int(input("Enter a number between 1 and 13: "))
+  for i in range(1,49):
+    wordInput = int(input("Enter a number between 1 and 49: "))
     sum = i - wordInput
     break
   
@@ -499,6 +499,9 @@ def wordle():
               answer = "words"
               print("Ahh shucks. The word was: " + str(answer))
 
+ 
+
+
             
 
          
@@ -509,4 +512,4 @@ wordle()
 
   
   
-  
+   
