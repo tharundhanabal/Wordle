@@ -1,5 +1,5 @@
 def wordle():
-  answer = "latch"
+  answer = "today"
   #The word can change 
     
   wordle1 = ["-", "-", "-", "-", "-"]
@@ -38,35 +38,55 @@ def wordle():
     
 
     if answer[0] != wordle1[0]:
-      return ("🔴")
+      if wordle1[0] in answer:
+        return ("🟡")
+
+      else:
+        return ("🔴")
 #------------------------------
   def correct1():
     if answer[1] == wordle1[1]:
       return ("🟢")
 
     if answer[1] != wordle1[1]:
-      return ("🔴")
+      if wordle1[1] in answer:
+        return ("🟡")
+
+      else:
+        return ("🔴")
 #------------------------------
   def correct2():
     if answer[2] == wordle1[2]:
       return ("🟢")
 
     if answer[2] != wordle1[2]:
-      return ("🔴")
+      if wordle1[2] in answer:
+        return ("🟡")
+
+      else:
+        return ("🔴")
 #------------------------------
   def correct3():
     if answer[3] == wordle1[3]:
       return ("🟢")
 
     if answer[3] != wordle1[3]:
-      return ("🔴")
+      if wordle1[3] in answer:
+        return ("🟡")
+
+      else:
+        return ("🔴")
 #------------------------------
   def correct4():
     if answer[4] == wordle1[4]:
       return ("🟢")
 
     if answer[4] != wordle1[4]:
-      return ("🔴")
+      if wordle1[4] in answer:
+        return ("🟡")
+
+      else:
+        return ("🔴")
 
     
 
@@ -98,35 +118,52 @@ def wordle():
     
 
       if answer[0] != wordle2[0]:
-        return ("🔴")
+        if wordle2[0] in answer:
+          return ("🟡")
+
+        else:
+          return ("🔴")
 #--------------------------------
     def correct6():
       if answer[1] == wordle2[1]:
         return ("🟢")
 
       if answer[1] != wordle2[1]:
-        return ("🔴")
+        if wordle2[1] in answer:
+          return ("🟡")
 #--------------------------------
     def correct7():
       if answer[2] == wordle2[2]:
         return ("🟢")
 
       if answer[2] != wordle2[2]:
-        return ("🔴")
+        if wordle2[2] in answer:
+          return ("🟡")
+
+        else:
+          return ("🔴")
 #--------------------------------
     def correct8():
       if answer[3] == wordle2[3]:
         return ("🟢")
 
       if answer[3] != wordle2[3]:
-        return ("🔴")
+        if wordle2[3] in answer:
+          return ("🟡")
+
+        else:
+          return ("🔴")
 #--------------------------------
     def correct9():
       if answer[4] == wordle2[4]:
         return ("🟢")
 
       if answer[4] != wordle2[4]:
-        return ("🔴")
+        if wordle2[4] in answer:
+          return ("🟡")
+
+        else: 
+          return ("🔴")
     
       
     print(" ")
@@ -156,28 +193,44 @@ def wordle():
     
 
         if answer[0] != wordle3[0]:
-          return ("🔴")
+          if wordle3[0] in answer: 
+            return ("🟡")
+
+          else:
+            return ("🔴")
 #----------------------------------
       def correct11():
         if answer[1] == wordle3[1]:
           return ("🟢")
 
         if answer[1] != wordle3[1]:
-          return ("🔴")
+          if wordle3[1] in answer:
+            return ("🟡")
+
+          else:
+            return ("🔴")
 #----------------------------------
       def correct12():
         if answer[2] == wordle3[2]:
           return ("🟢")
 
         if answer[2] != wordle3[2]:
-          return ("🔴")
+          if wordle3[2] in answer:
+            return ("🟡")
+
+          else:
+            return ("🔴")
 #----------------------------------
       def correct13():
         if answer[3] == wordle3[3]:
           return ("🟢")
 
         if answer[3] != wordle3[3]:
-          return ("🔴")
+          if wordle3[3] in answer:
+            return ("🟡")
+
+          else:
+            return ("🔴")
 #----------------------------------
       def correct14():
         if answer[4] == wordle3[4]:
@@ -214,35 +267,55 @@ def wordle():
     
 
           if answer[0] != wordle4[0]:
-            return ("🔴")
+            if wordle4 in answer:
+              return ("🟡")
+
+            else:
+              return ("🔴")
 #----------------------------------
         def correct16():
           if answer[1] == wordle4[1]:
             return ("🟢")
 
           if answer[1] != wordle4[1]:
-            return ("🔴")
+            if wordle4[1] in answer:
+              return ("🟡")
+
+            else:
+              return("🔴")
 #----------------------------------
         def correct17():
           if answer[2] == wordle4[2]:
             return ("🟢")
 
           if answer[2] != wordle4[2]:
-            return ("🔴")
+            if wordle4[2] in answer:
+              return ("🟡")
+
+            else:
+              return ("🔴")
 #----------------------------------
         def correct18():
           if answer[3] == wordle4[3]:
             return ("🟢")
 
           if answer[3] != wordle4[3]:
-            return ("🔴")
+            if wordle4[3] in answer:
+              return ("🟡")
+
+            else:
+              return ("🔴")
 #----------------------------------
         def correct19():
           if answer[4] == wordle4[4]:
             return ("🟢")
 
           if answer[4] != wordle4[4]:
-            return ("🔴")
+            if wordle4[4] in answer:
+              return ("🟡")
+            
+            else:
+              return ("🔴")
   
         print(" ")
         print(wordle1[0] + " "  + "|" + " " + wordle1[1] + " " + "|" + " " + wordle1[2] + " " + "|" + " " + wordle1[3] + " "  + "|" + " " + wordle1[4] + " " + "-->" + " " + str(correct()) + ", " + str(correct1()) + ", " + str(correct2()) + ", " + str(correct3()) + ", " + str(correct4()))
@@ -268,39 +341,58 @@ def wordle():
           def correct20():
             if answer[0] == wordle5[0]:
               return ("🟢")
-      
   
             if answer[0] != wordle5[0]:
-              return ("🔴")
+              if wordle5[0] in answer:
+                return ("🟡")
+                
+              else:
+                return ("🔴")
   #------------------------------------
           def correct21():
             if answer[1] == wordle5[1]:
               return ("🟢")
   
             if answer[1] != wordle5[1]:
-              return ("🔴")
+              if wordle5[1] in answer:
+                return ("🟡")
+                
+              else:
+                return ("🔴")
   #------------------------------------
           def correct22():
             if answer[2] == wordle5[2]:
               return ("🟢")
   
             if answer[2] != wordle5[2]:
-              return ("🔴")
+              if wordle5[2] in answer:
+                return ("🟡")
+                
+              else:
+                return ("🔴")
   #------------------------------------
           def correct23():
             if answer[3] == wordle5[3]:
               return ("🟢")
   
             if answer[3] != wordle5[3]:
-              return ("🔴")
+              if wordle5[3] in answer:
+                return ("🟡")
+                
+              else:
+                return ("🔴")
   #------------------------------------
           def correct24():
             if answer[4] == wordle5[4]:
               return ("🟢")
   
             if answer[4] != wordle5[4]:
-              return ("🔴")
-    
+              if wordle5[4] in answer:
+                return ("🟡")
+                
+              else:
+                return ("🔴")
+                
           print(" ")
           print(wordle1[0] + " "  + "|" + " " + wordle1[1] + " " + "|" + " " + wordle1[2] + " " + "|" + " " + wordle1[3] + " "  + "|" + " " + wordle1[4] + " " + "-->" + " " + str(correct()) + ", " + str(correct1()) + ", " + str(correct2()) + ", " + str(correct3()) + ", " + str(correct4()))
           print(wordle2[0] + " "  + "|" + " " + wordle2[1] + " " + "|" + " " + wordle2[2] + " " + "|" + " " + wordle2[3] + " "  + "|" + " " + wordle2[4] + " " + "-->" + " " + str(correct5()) + ", " + str(correct6()) + ", " + str(correct7()) + ", " + str(correct8()) + ", " + str(correct9()))
@@ -328,35 +420,55 @@ def wordle():
       
   
               if answer[0] != wordle5[0]:
-                return ("🔴")
+                if wordle5[0] in answer:
+                  return ("🟡")
+
+                else:
+                  return ("🔴")
   #-------------------------------------
             def correct26():
               if answer[1] == wordle5[1]:
                 return ("🟢")
   
               if answer[1] != wordle5[1]:
-                return ("🔴")
+                if wordle5[1] in answer:
+                  return ("🟡")
+
+                else:
+                  return ("🔴")
   #-------------------------------------
             def correct27():
               if answer[2] == wordle5[2]:
                 return ("🟢")
   
               if answer[2] != wordle5[2]:
-                return ("🔴")
+                if wordle5[2] in answer:
+                  return ("🟡")
+
+                else:
+                  return ("🔴")
   #-------------------------------------
             def correct28():
               if answer[3] == wordle5[3]:
                 return ("🟢")
   
               if answer[3] != wordle5[3]:
-                return ("🔴")
+                if wordle5[3] in answer:
+                  return ("🟡")
+
+                else:
+                  return ("🔴")
   #-------------------------------------
             def correct29():
               if answer[4] == wordle5[4]:
                 return ("🟢")
   
               if answer[4] != wordle5[4]:
-                return ("🔴")
+                if wordle5[4] in answer:
+                  return ("🟡")
+
+                else:
+                  return ("🔴")
     
             print(" ")
             print(wordle1[0] + " "  + "|" + " " + wordle1[1] + " " + "|" + " " + wordle1[2] + " " + "|" + " " + wordle1[3] + " "  + "|" + " " + wordle1[4] + " " + "-->" + " " + str(correct()) + ", " + str(correct1()) + ", " + str(correct2()) + ", " + str(correct3()) + ", " + str(correct4()))
@@ -377,6 +489,10 @@ def wordle():
 
          
 #Created by Tharun Dhanabal in Python 3
-#Vanilla version 0.02
+#Vanilla version 0.03
 
 wordle()
+
+  
+  
+  
