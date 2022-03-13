@@ -131,6 +131,9 @@ def wordle():
       if answer[1] != wordle2[1]:
         if wordle2[1] in answer:
           return ("🟡")
+
+        else:
+          return("🔴")
 #--------------------------------
     def correct7():
       if answer[2] == wordle2[2]:
@@ -496,3 +499,8 @@ wordle()
   
   
   
+
+    
+    
+
+             
