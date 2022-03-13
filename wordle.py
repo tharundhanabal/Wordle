@@ -1,14 +1,14 @@
 def wordle():
 
-  pWords = ["today", "codes", "lying", "works", "words", "split", "likes", "money", "watch", "latch", "young", "homes", "truce", "truck", "soles" , "enter", "focus", "point", "yours", "fouls", "holes", "dying", "clown", "cloth", "towel", "colts", "scowl", "seize", "serve", "sharp", "shelf", "spine", "slice", "solid", "space", "stand", "stone", "eight", "earth", "eager", "ebony", "edict", "eight", "elect", "elite", "entry", "extra", "every"]
+  pWords = ["today", "codes", "lying", "works", "words", "split", "likes", "money", "watch", "latch", "young", "homes", "truce", "truck", "soles" , "enter", "focus", "point", "yours", "fouls", "holes", "dying", "clown", "cloth", "towel", "colts", "scowl", "seize", "serve", "sharp", "shelf", "spine", "slice", "solid", "space", "stand", "stone", "eight", "earth", "eager", "ebony", "edict", "eight", "elect", "elite", "entry", "extra", "every", "right, hoard", "clone"]
 
   #this for i loop decides what the word is using the list above
-  for i in range(1,49):
-    wordInput = int(input("Enter a number between 1 and 49: "))
-    sum = i - wordInput
+  for i in range(1,52):
+    wordInput = int(input("Enter a number between 1 and 51: "))
+    i = i - wordInput
     break
   
-  answer = pWords[sum]
+  answer = pWords[i]
   
     
   #The word can change 
@@ -506,10 +506,8 @@ def wordle():
 
          
 #Created by Tharun Dhanabal in Python 3
-#Vanilla version 0.03
+#Vanilla version 0.04
 
 wordle()
 
   
-  
-   
