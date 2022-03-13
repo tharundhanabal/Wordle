@@ -1,5 +1,16 @@
 def wordle():
-  answer = "today"
+
+  pWords = ["today", "codes", "lying", "works", "words", "split", "splice", "money", "watch", "latch", "young", "homes", "truce"]
+
+  #this for i loop decides what the word is using the list above
+  for i in range(1,14):
+    wordInput = int(input("Enter a number between 1 and 13: "))
+    sum = i - wordInput
+    break
+  
+  answer = pWords[sum]
+  
+    
   #The word can change 
     
   wordle1 = ["-", "-", "-", "-", "-"]
@@ -9,7 +20,7 @@ def wordle():
   wordle5 = ["-", "-", "-", "-", "-"]
   wordle6 = ["-", "-", "-", "-", "-"]
 
-  
+  print(" ")
   print("Wordle: ")
   print(wordle1[0] + " "  + "|" + " " + wordle1[1] + " " + "|" + " " + wordle1[2] + " " + "|" + " " + wordle1[3] + " "  + "|" + " " + wordle1[4])
   print(wordle2[0] + " "  + "|" + " " + wordle2[1] + " " + "|" + " " + wordle2[2] + " " + "|" + " " + wordle2[3] + " "  + "|" + " " + wordle2[4])
@@ -418,11 +429,11 @@ def wordle():
             wordle6[4] = incorrect5[4]
   
             def correct25():
-              if answer[0] == wordle5[0]:
+              if answer[0] == wordle6[0]:
                 return ("🟢")
       
   
-              if answer[0] != wordle5[0]:
+              if answer[0] != wordle6[0]:
                 if wordle5[0] in answer:
                   return ("🟡")
 
@@ -430,44 +441,44 @@ def wordle():
                   return ("🔴")
   #-------------------------------------
             def correct26():
-              if answer[1] == wordle5[1]:
+              if answer[1] == wordle6[1]:
                 return ("🟢")
   
-              if answer[1] != wordle5[1]:
-                if wordle5[1] in answer:
+              if answer[1] != wordle6[1]:
+                if wordle6[1] in answer:
                   return ("🟡")
 
                 else:
                   return ("🔴")
   #-------------------------------------
             def correct27():
-              if answer[2] == wordle5[2]:
+              if answer[2] == wordle6[2]:
                 return ("🟢")
   
-              if answer[2] != wordle5[2]:
-                if wordle5[2] in answer:
+              if answer[2] != wordle6[2]:
+                if wordle6[2] in answer:
                   return ("🟡")
 
                 else:
                   return ("🔴")
   #-------------------------------------
             def correct28():
-              if answer[3] == wordle5[3]:
+              if answer[3] == wordle6[3]:
                 return ("🟢")
   
-              if answer[3] != wordle5[3]:
-                if wordle5[3] in answer:
+              if answer[3] != wordle6[3]:
+                if wordle6[3] in answer:
                   return ("🟡")
 
                 else:
                   return ("🔴")
   #-------------------------------------
             def correct29():
-              if answer[4] == wordle5[4]:
+              if answer[4] == wordle6[4]:
                 return ("🟢")
   
-              if answer[4] != wordle5[4]:
-                if wordle5[4] in answer:
+              if answer[4] != wordle6[4]:
+                if wordle6[4] in answer:
                   return ("🟡")
 
                 else:
@@ -499,8 +510,3 @@ wordle()
   
   
   
-
-    
-    
-
-             
