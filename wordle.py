@@ -493,6 +493,7 @@ def wordle():
             print(wordle6[0] + " "  + "|" + " " + wordle6[1] + " " + "|" + " " + wordle6[2] + " " + "|" + " " + wordle6[3] + " "  + "|" + " " + wordle6[4] + " " + "-->" + " " + str(correct25()) + ", " + str(correct26()) + ", " + str(correct27()) + ", " + str(correct28()) + ", " + str(correct29()))
                                                                                                                                                                                                                                                                  
             if incorrect5 == answer: 
+              answer = pWords[i]
               print("Correct.")
   
             if incorrect5 != answer:
