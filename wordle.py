@@ -496,7 +496,6 @@ def wordle():
               print("Correct.")
   
             if incorrect5 != answer:
-              answer = "words"
               print("Ahh shucks. The word was: " + str(answer))
 
  
