@@ -6,8 +6,7 @@ def wordle():
   #The word can change. Choice (.choice()) function just chooses a random string element each time**
   import random 
   answer = random.choice(pWords)
-  
-
+ 
     
   wordle1 = ["-", "-", "-", "-", "-"]
   wordle2 = ["-", "-", "-", "-", "-"]
@@ -16,7 +15,7 @@ def wordle():
   wordle5 = ["-", "-", "-", "-", "-"]
   wordle6 = ["-", "-", "-", "-", "-"]
 
-  print(" ")
+  
   print("Wordle: ")
   print(wordle1[0] + " "  + "|" + " " + wordle1[1] + " " + "|" + " " + wordle1[2] + " " + "|" + " " + wordle1[3] + " "  + "|" + " " + wordle1[4])
   print(wordle2[0] + " "  + "|" + " " + wordle2[1] + " " + "|" + " " + wordle2[2] + " " + "|" + " " + wordle2[3] + " "  + "|" + " " + wordle2[4])
