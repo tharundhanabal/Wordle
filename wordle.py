@@ -1,7 +1,6 @@
 def wordle():
 
-  pWords = ["today", "codes", "lying", "works", "words", "split", "likes", "money", "watch", "latch", "young", "homes", "truce", "truck", "soles" , "enter", "focus", "point", "yours", "fouls", "holes", "dying", "clown", "cloth", "towel", "colts", "scowl", "seize", "serve", "sharp", "shelf", "spine", "slice", "solid", "space", "stand", "stone", "eight", "earth", "eager", "ebony", "edict", "eight", "elect", "elite", "entry", "extra", "every", "right", "hoard", "clone", "south", "tubes", "mails", "grams", "image", "video", "essay", "drive", "reads", "verge", "parks", "inbox", "movie", "cloud", "boxes", "sight", "signs", "sighs", "seven", "marvel", "games", "gains", "apple", "tales", "roles", "lores", "allow", "world", "above", "using", "chore", "phone", "align", "loads"] 
-
+  pWords = ["today", "codes", "lying", "works", "words", "split", "likes", "money", "watch", "latch", "young", "homes", "truce", "truck", "soles" , "enter", "focus", "point", "yours", "fouls", "holes", "dying", "clown", "cloth", "towel", "colts", "scowl", "seize", "serve", "sharp", "shelf", "spine", "slice", "solid", "space", "stand", "stone", "eight", "earth", "eager", "ebony", "edict", "eight", "elect", "elite", "entry", "extra", "every", "right", "hoard", "clone", "south", "tubes", "mails", "grams", "image", "video", "essay", "drive", "reads", "verge", "parks", "inbox", "movie", "cloud", "boxes", "sight", "signs", "sighs", "seven", "marvel", "games", "gains", "apple", "tales", "roles", "lores", "allow", "world", "above", "using", "chore", "phone", "align", "loads", "thing", "touch", "vital", "pores", "books", "walls", "enter", "comma", "slash", "lying", "kills", "guard", "freed", "eight", "brain", "month", "shots", "cores", "songs", "smile", "boars", "goats", "boats", "claim", "alive", "devil", " going", "point", "hoist", "poise", "poses", "aging", "rooms"] 
  
   #The word can change. Choice (.choice()) function just chooses a random string element each time**
   import random 
@@ -501,7 +500,7 @@ def wordle():
 
          
 #Created by Tharun Dhanabal in Python 3
-#Vanilla version 0.04
+#Vanilla version 0.06
 
 wordle()
 
