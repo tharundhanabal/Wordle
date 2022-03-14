@@ -1,17 +1,13 @@
 def wordle():
 
-  pWords = ["today", "codes", "lying", "works", "words", "split", "likes", "money", "watch", "latch", "young", "homes", "truce", "truck", "soles" , "enter", "focus", "point", "yours", "fouls", "holes", "dying", "clown", "cloth", "towel", "colts", "scowl", "seize", "serve", "sharp", "shelf", "spine", "slice", "solid", "space", "stand", "stone", "eight", "earth", "eager", "ebony", "edict", "eight", "elect", "elite", "entry", "extra", "every", "right, hoard", "clone"]
+  pWords = ["today", "codes", "lying", "works", "words", "split", "likes", "money", "watch", "latch", "young", "homes", "truce", "truck", "soles" , "enter", "focus", "point", "yours", "fouls", "holes", "dying", "clown", "cloth", "towel", "colts", "scowl", "seize", "serve", "sharp", "shelf", "spine", "slice", "solid", "space", "stand", "stone", "eight", "earth", "eager", "ebony", "edict", "eight", "elect", "elite", "entry", "extra", "every", "right", "hoard", "clone", "south", "tubes", "mails", "grams", "image", "video", "essay", "drive", "reads", "verge", "parks", "inbox", "movie", "cloud", "boxes", "sight", "signs", "sighs", "seven", "marvel", "games", "gains", "apple", "tales", "roles", "lores", "allow", "world", "above", "using", "chore", "phone", "align", "loads"] 
 
-  #this for i loop decides what the word is using the list above
-  for i in range(1,52):
-    wordInput = int(input("Enter a number between 1 and 51: "))
-    i = i - wordInput
-    break
+ 
+  #The word can change. Choice (.choice()) function just chooses a random string element each time**
+  import random 
+  answer = random.choice(pWords)
   
-  answer = pWords[i]
-  
-    
-  #The word can change 
+
     
   wordle1 = ["-", "-", "-", "-", "-"]
   wordle2 = ["-", "-", "-", "-", "-"]
